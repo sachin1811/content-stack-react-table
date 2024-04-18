@@ -1,0 +1,508 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div
+  className="border border-solid border-[#DDE3EE] w-[90vw] m-[5vw] text-xs"
+  id="dynamicTable"
+  onScroll={null}
+>
+  <table
+    className="w-full min-w-max table-auto text-left"
+  >
+    <thead
+      className="border-b border-[#DDE3EE] sticky top-[-1vh] h-8"
+    >
+      <tr>
+        <th
+          className="bg-white p-4"
+        >
+          Name
+        </th>
+        <th
+          className="column_resizer_own_class  max-w-full min-w-0 w-0 bg-blue-gray-100"
+          disabled={false}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "cursor": "ew-resize",
+              "userSelect": "none",
+            }
+          }
+        />
+        <th
+          className="bg-white p-4"
+        >
+          Age
+        </th>
+        <th
+          className="column_resizer_own_class  max-w-full min-w-0 w-0 bg-blue-gray-100"
+          disabled={false}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "cursor": "ew-resize",
+              "userSelect": "none",
+            }
+          }
+        />
+        <th
+          className="bg-white p-4"
+        >
+          Gender
+        </th>
+        <th
+          className="column_resizer_own_class  max-w-full min-w-0 w-0 bg-blue-gray-100"
+          disabled={false}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "cursor": "ew-resize",
+              "userSelect": "none",
+            }
+          }
+        />
+        <th
+          className="bg-white p-4"
+        >
+          Email
+        </th>
+        <th
+          className="column_resizer_own_class  max-w-full min-w-0 w-0 bg-blue-gray-100"
+          disabled={false}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "cursor": "ew-resize",
+              "userSelect": "none",
+            }
+          }
+        />
+        <th
+          className="bg-white p-4"
+        >
+          Action
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        className="h-12 md:h-15"
+      >
+        <td
+          className="p-4 text-center"
+          colSpan={9}
+        >
+          No Data Present in Table
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[` 2`] = `
+<div
+  className="border border-solid border-[#DDE3EE] h-[52vh] w-[90vw] overflow-y-scroll m-[5vw] text-xs"
+  id="dynamicTable"
+  onScroll={[Function]}
+>
+  <table
+    className="w-full min-w-max table-auto text-left"
+  >
+    <thead
+      className="border-b border-[#DDE3EE] sticky top-[-1vh] h-8"
+    >
+      <tr>
+        <th
+          className="bg-white p-4"
+        >
+          Name
+        </th>
+        <th
+          className="column_resizer_own_class  max-w-full min-w-0 w-0 bg-blue-gray-100"
+          disabled={false}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "cursor": "ew-resize",
+              "userSelect": "none",
+            }
+          }
+        />
+        <th
+          className="bg-white p-4"
+        >
+          Age
+        </th>
+        <th
+          className="column_resizer_own_class  max-w-full min-w-0 w-0 bg-blue-gray-100"
+          disabled={false}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "cursor": "ew-resize",
+              "userSelect": "none",
+            }
+          }
+        />
+        <th
+          className="bg-white p-4"
+        >
+          Gender
+        </th>
+        <th
+          className="column_resizer_own_class  max-w-full min-w-0 w-0 bg-blue-gray-100"
+          disabled={false}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "cursor": "ew-resize",
+              "userSelect": "none",
+            }
+          }
+        />
+        <th
+          className="bg-white p-4"
+        >
+          Email
+        </th>
+        <th
+          className="column_resizer_own_class  max-w-full min-w-0 w-0 bg-blue-gray-100"
+          disabled={false}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "cursor": "ew-resize",
+              "userSelect": "none",
+            }
+          }
+        />
+        <th
+          className="bg-white p-4"
+        >
+          Action
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;
+
+exports[`TableData Component TableData Component with data should make snapshot 1`] = `
+<div
+  className="border border-solid border-[#DDE3EE] h-[52vh] w-[90vw] overflow-y-scroll m-[5vw] text-xs"
+  id="dynamicTable"
+  onScroll={[Function]}
+>
+  <table
+    className="w-full min-w-max table-auto text-left"
+  >
+    <thead
+      className="border-b border-[#DDE3EE] sticky top-[-1vh] h-8"
+    >
+      <tr>
+        <th
+          className="bg-white p-4"
+        >
+          Name
+        </th>
+        <th
+          className="column_resizer_own_class  max-w-full min-w-0 w-0 bg-[#DDE3EE]"
+          disabled={false}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "cursor": "ew-resize",
+              "userSelect": "none",
+            }
+          }
+        />
+        <th
+          className="bg-white p-4"
+        >
+          Age
+        </th>
+        <th
+          className="column_resizer_own_class  max-w-full min-w-0 w-0 bg-[#DDE3EE]"
+          disabled={false}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "cursor": "ew-resize",
+              "userSelect": "none",
+            }
+          }
+        />
+        <th
+          className="bg-white p-4"
+        >
+          Gender
+        </th>
+        <th
+          className="column_resizer_own_class  max-w-full min-w-0 w-0 bg-[#DDE3EE]"
+          disabled={false}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "cursor": "ew-resize",
+              "userSelect": "none",
+            }
+          }
+        />
+        <th
+          className="bg-white p-4"
+        >
+          Email
+        </th>
+        <th
+          className="column_resizer_own_class  max-w-full min-w-0 w-0 bg-[#DDE3EE]"
+          disabled={false}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "cursor": "ew-resize",
+              "userSelect": "none",
+            }
+          }
+        />
+        <th
+          className="bg-white p-4"
+        >
+          Action
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        className="h-12 md:h-15"
+      >
+        <td
+          className="p-4"
+        >
+          Sachin
+        </td>
+        <td
+          className="min-w-0 w-0 bg-[#DDE3EE]"
+        />
+        <td
+          className="p-4"
+        >
+          29
+        </td>
+        <td
+          className="min-w-0 w-0 bg-[#DDE3EE]"
+        />
+        <td
+          className="p-4"
+        />
+        <td
+          className="min-w-0 w-0 bg-[#DDE3EE]"
+        />
+        <td
+          className="p-4"
+        >
+          email@email.com
+        </td>
+        <td
+          className="min-w-0 w-0 bg-[#DDE3EE]"
+        />
+        <td
+          className="p-4 w-2 content-center"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 192 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"
+            />
+          </svg>
+        </td>
+      </tr>
+      <tr
+        className="h-12 md:h-15"
+      >
+        <td
+          className="p-4"
+        >
+          Nitin
+        </td>
+        <td
+          className="min-w-0 w-0 bg-[#DDE3EE]"
+        />
+        <td
+          className="p-4"
+        >
+          33
+        </td>
+        <td
+          className="min-w-0 w-0 bg-[#DDE3EE]"
+        />
+        <td
+          className="p-4"
+        />
+        <td
+          className="min-w-0 w-0 bg-[#DDE3EE]"
+        />
+        <td
+          className="p-4"
+        >
+          email@email.com
+        </td>
+        <td
+          className="min-w-0 w-0 bg-[#DDE3EE]"
+        />
+        <td
+          className="p-4 w-2 content-center"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 192 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"
+            />
+          </svg>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`TableData Component TableData Component without data should make snapshot 1`] = `
+<div
+  className="border border-solid border-[#DDE3EE] w-[90vw] m-[5vw] text-xs"
+  id="dynamicTable"
+  onScroll={null}
+>
+  <table
+    className="w-full min-w-max table-auto text-left"
+  >
+    <thead
+      className="border-b border-[#DDE3EE] sticky top-[-1vh] h-8"
+    >
+      <tr>
+        <th
+          className="bg-white p-4"
+        >
+          Name
+        </th>
+        <th
+          className="column_resizer_own_class  max-w-full min-w-0 w-0 bg-[#DDE3EE]"
+          disabled={false}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "cursor": "ew-resize",
+              "userSelect": "none",
+            }
+          }
+        />
+        <th
+          className="bg-white p-4"
+        >
+          Age
+        </th>
+        <th
+          className="column_resizer_own_class  max-w-full min-w-0 w-0 bg-[#DDE3EE]"
+          disabled={false}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "cursor": "ew-resize",
+              "userSelect": "none",
+            }
+          }
+        />
+        <th
+          className="bg-white p-4"
+        >
+          Gender
+        </th>
+        <th
+          className="column_resizer_own_class  max-w-full min-w-0 w-0 bg-[#DDE3EE]"
+          disabled={false}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "cursor": "ew-resize",
+              "userSelect": "none",
+            }
+          }
+        />
+        <th
+          className="bg-white p-4"
+        >
+          Email
+        </th>
+        <th
+          className="column_resizer_own_class  max-w-full min-w-0 w-0 bg-[#DDE3EE]"
+          disabled={false}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "cursor": "ew-resize",
+              "userSelect": "none",
+            }
+          }
+        />
+        <th
+          className="bg-white p-4"
+        >
+          Action
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        className="h-12 md:h-15"
+      >
+        <td
+          className="p-4 text-center"
+          colSpan={9}
+        >
+          No Data Present in Table
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

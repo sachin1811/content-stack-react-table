@@ -1,0 +1,16 @@
+{
+    "resetMocks": false,
+    "testEnvironment": "jsdom",
+    "transform": {
+      "^.+\\.(js|jsx)$": "babel-jest"
+    },
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text-summary"
+    ],
+    "moduleNameMapper": {
+         "\\.(css|scss)$": "identity-obj-proxy"
+      }
+  }
+  
